@@ -1,0 +1,15 @@
+{
+  "name": "rust-wasm",
+  "version": "1.0.0",
+  "description": "Created to gain experience with WebAssembly and Rust.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"http-server .\" \"start http://localhost:8080/index.html\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "http-server": "^14.1.1"
+  }
+}
